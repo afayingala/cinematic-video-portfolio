@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0E0E0E;
+  color: #F2F2F2;
+  font-family: 'Inter', sans-serif;
+}
+.hero-name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #f2f2f2;
+  margin: 0;
+}
+
+.hero-role {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #a1a1a1;
+  margin-top: 0.75rem;
+}
+/* SECTION */
+.featured {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8rem 1.5rem;
+}
+
+/* SECTION LABEL */
+.section-label {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin-bottom: 4rem;
+}
+
+/* STACK */
+.video-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+/* CARD */
+.video-card {
+  width: 100%;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+.video-card:hover {
+  transform: scale(1.01);
+  opacity: 0.95;
+}
+
+/* VIDEO WRAPPER — THIS FIXES YOUR RATIO ISSUE */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* LOCK IT */
+  overflow: hidden;
+  background: #000;
+}
+
+/* ACTUAL VIDEO */
+.video-wrapper video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* THIS IS CRUCIAL */
+  display: block;
+}
+
+/* META */
+.video-meta {
+  margin-top: 1rem;
+}
+
+.video-title {
+  font-size: 0.9rem;
+  color: #f2f2f2;
+}
+
+.video-role {
+  font-size: 0.75rem;
+  color: #9a9a9a;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s ease-out forwards;
+  
+}
+/* .flex.flex-col.gap-1 {
+  row-gap: 1px;
+} */
+ main {
+  width: 100%;
+}
