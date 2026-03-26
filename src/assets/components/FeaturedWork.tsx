@@ -2,10 +2,30 @@
 import VideoCard from './VideoCard';
 
 const videos = [
-  { id: 1, title: 'Client Retention', role: 'Fitness', src: '/videos/video1.mp4' },
-  { id: 2, title: 'Prospects', role: 'Fitness', src: '/videos/video2.mp4' },
-  { id: 3, title: 'Advert', role: 'Fitness', src: '/videos/video3.mp4' },
-  { id: 4, title: 'Dicipline', role: 'Fitness', src: '/videos/video4.mp4' },
+  {
+    id: 1,
+    title: 'Cinematic Storytelling',
+    role: 'Color Grading | Smooth Cuts',
+    src: '/videos/video1.mp4',
+  },
+  {
+    id: 2,
+    title: 'Social Media Edit',
+    role: 'Quick Cuts | Engaging Pacing',
+    src: '/videos/video2.mp4',
+  },
+  {
+    id: 3,
+    title: 'Interview & Dialogue Edit',
+    role: 'Narrative Flow | Audio Sync | Subtle Transitions',
+    src: '/videos/video3.mp4',
+  },
+  {
+    id: 4,
+    title: 'Motion Graphics & Branding',
+    role: 'Visual Effects | Text Overlays | Branding',
+    src: '/videos/video4.mp4',
+  },
 ];
 
 export default function FeaturedWork() {
