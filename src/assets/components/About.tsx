@@ -15,6 +15,19 @@ export default function About() {
           textAlign: 'center',
         }}
       >
+        {/* Headline */}
+        <h2
+          style={{
+            fontSize: '2rem',
+            fontWeight: '700',
+            color: '#fff',
+            marginBottom: '1.5rem',
+          }}
+        >
+          About Me
+        </h2>
+
+        {/* Paragraph */}
         <p
           style={{
             fontSize: '1.125rem',
@@ -23,9 +36,19 @@ export default function About() {
             fontWeight: 400,
           }}
         >
-          Video editor focused on storytelling,
-          <br />
-          rhythm, and visual mood.
+          With a background in technology and a passion for cinematic storytelling, I create videos that capture attention and communicate ideas effectively. From concept to final cut, I focus on crafting visuals that resonate, evoke emotion, and leave a lasting impact.
+        </p>
+
+        {/* Skills / Tools */}
+        <p
+          style={{
+            marginTop: '2rem',
+            color: '#cddbdc',
+            fontWeight: '600',
+            fontSize: '1rem',
+          }}
+        >
+          Capcut | After Effects | DaVinci Resolve | Motion Graphics 
         </p>
       </div>
     </section>

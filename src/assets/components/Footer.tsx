@@ -36,7 +36,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://instagram.com/lhomme_divin"
+            href="https://instagram.com/your.ad.creator"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: 'inherit', textDecoration: 'none' }}
@@ -45,7 +45,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://wa.me/237620788966?text=Hello%20Divine,%20I%20saw%20your%20portfolio"
+            href="https://wa.me/237678867307?text=Hello%20Divine,%20I%20saw%20your%20portfolio"
             target="_blank"
             rel="noopener noreferrer"
             style={{ color: 'inherit', textDecoration: 'none' }}
@@ -54,7 +54,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="tel:+2376620788966"
+            href="tel:+237678867307"
             style={{ color: 'inherit', textDecoration: 'none' }}
           >
             call
