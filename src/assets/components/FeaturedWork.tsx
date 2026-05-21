@@ -6,13 +6,13 @@ const videos = [
     id: 1,
     title: 'Cinematic Storytelling',
     role: 'Color Grading | Smooth Cuts',
-    src: '/videos/video1.mp4',
+    src: '/videos/scenary.mp4',
   },
   {
     id: 2,
     title: 'Social Media Edit',
     role: 'Quick Cuts | Engaging Pacing',
-    src: '/videos/video2.mp4',
+    src: '/videos/gymguy one.mp4',
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const videos = [
     id: 4,
     title: 'Motion Graphics & Branding',
     role: 'Visual Effects | Text Overlays | Branding',
-    src: '/videos/video4.mp4',
+    src: '/videos/kariosguesthouse3.mp4',
   },
 ];
 
